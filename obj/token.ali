@@ -1,0 +1,131 @@
+V "GNAT Lib v9"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U token%b		token.adb		83828875 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.hash_case_insensitive%s  a-shcain.adb  a-shcain.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+U token%s		token.ads		38910395 BN EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20190622195205 76789da1 ada%s
+D a-charac.ads		20190622195205 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190622195205 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190622195205 61e5e089 ada.containers%s
+D a-except.ads		20190622195205 291912d5 ada.exceptions%s
+D a-finali.ads		20190622195205 bf4f806b ada.finalization%s
+D a-stream.ads		20190622195205 119b8fb3 ada.streams%s
+D a-string.ads		20190622195205 90ac6797 ada.strings%s
+D a-shcain.ads		20190622195205 08af52df ada.strings.hash_case_insensitive%s
+D a-strmap.ads		20190622195205 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190622195205 8098c91f ada.strings.unbounded%s
+D a-tags.ads		20190622195205 491b781d ada.tags%s
+D a-unccon.ads		20190622195205 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190622195205 eff36322 ada.unchecked_deallocation%s
+D system.ads		20190622195205 4635ec04 system%s
+D s-atocou.ads		20190622195205 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20190622195205 54135002 system.exception_table%s
+D s-finmas.ads		20190622195205 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190622195205 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190622195205 02dbe0c2 system.img_int%s
+D s-parame.ads		20190622195205 48ec542b system.parameters%s
+D s-secsta.ads		20190622195205 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190622195205 a7318a92 system.soft_links%s
+D s-stache.ads		20190622195205 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190622195205 09bd3940 system.standard_library%s
+D s-stoele.ads		20190622195205 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190622195205 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190622195205 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190622195205 aedef97e system.stream_attributes%s
+D s-traent.ads		20190622195205 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190622195205 34867c83 system.unsigned_types%s
+D s-valint.ads		20190622195205 48a52a3f system.val_int%s
+D token.ads		20191010170739 d9ec2a03 token%s
+D token.adb		20191010172256 3daa5a94 token%b
+X 1 ada.ads
+16K9*Ada 20e8 33|1r6 2r6 16r32 19r45 34|1r6 1r33 2r6 3r6 6r32 57r45 58r11
+. 60r14 92r32
+X 4 a-contai.ads
+16K13*Containers 24e19 33|2w10 19r49 34|57r49
+19M9*Hash_Type 33|19r60 34|57r60
+X 8 a-string.ads
+16K13*Strings 35e16 33|1r10 16r36 34|1r10 1r37 2r10 6r36 58r15 60r18
+X 9 a-shcain.ads
+32V22*Hash_Case_Insensitive{4|19M9} 34|2w18 60s26
+X 11 a-strunb.ads
+76K21*Unbounded 491e26 33|1w18 16r44 34|1w18 1r45 6r44
+79R9*Unbounded_String<6|43R9> 474e14 33|16r54 34|6r54
+100V13*To_String{string} 34|18s21 21s39 22s44 25s39 26s31
+X 14 a-uncdea.ads
+20u15*Unchecked_Deallocation 34|3w10 92r36
+X 33 token.ads
+4K9*Token 41l5 41e10 34|5b14 104l5 104t10
+5I12*Max_Range{integer} 6r61
+6R9*Token 6d16 6d45 14e17 16r79 17r45 18r39 19r31 34|6r79 7r17 31r44 32r17
+. 40r39 57r31
+6b16*Is_Number{boolean} 8r15 34|20m22 24m22 34m19 42r15 42r34 47r24 47r42
+6i45*String_Length{5I12} 12r34 34|21m22 25m22 35m19
+10i16*FInt{integer} 34|22m22 36m19 43r18 43r30
+12a16*FWord{string} 34|26m22 48r21 48r34 60r52
+16V13*Make_Token{6R9} 16>25 34|6b13 29l8 29t18
+16r25 Text{11|79R9} 34|6b25 18r31 21r49 22r54 25r49 26r41
+17V13*Make_Token{6R9} 17>25 34|31b13 38l8 38t18
+17i25 n{integer} 34|31b24 35r36 36r27
+18V13*Equal_Token{boolean} 18>26 18>32 34|40b13 55l8 55t19
+18r26 Tok1{6R9} 34|40b26 42r10 43r13 47r19 48r16
+18r32 Tok2{6R9} 34|40b32 42r29 43r25 47r37 48r29
+19V13*Hash_Token{4|19M9} 19>25 34|57b13 61l8 61t18
+19r25 Key{6R9} 34|57b25 60r48
+22+12 Element_Type 25r30 26r33 33r20 34|79r29 91r32
+23k12*Generic_Stack 22z12 30E12 36l8 36e21 34|64b17 103l8 103t21
+24P12*Stack 25r58 26r61 27r30 31c12 34r20 34|70r30 79r57 80r17 91r60 92r65
+. 93r17
+25U17*Push 25>23 25=44 34|79b17 85l11 85t15
+25*23 Item{22+12} 34|79b22 82r26
+25p44 Onto{24P12} 34|79b43 83r23 84m10
+26U17*Pop 26<22 26=47 34|91b17 101l11 101t14
+26*22 Item{22+12} 34|91b21 98m10
+26p47 From{24P12} 34|91b46 93r26 99m10
+27V16*Create{24P12} 34|70b16 73l11 73t17
+28X7*Stack_Empty_Error 34|96r19
+30R12 Node 31r28 32c12 35e17 34|80r30 92r59
+33*10 Element{22+12} 34|82m15 98r23
+34p10 Next{24P12} 34|83m15 99r23
+X 34 token.adb
+7r7 MyToken{33|6R9} 20m10 24m10 28r14
+8V16 Is_Numeric{boolean} 8b16 8>28 16l11 16t21 18s10
+8a28 Item{string} 11r34
+9i10 Dummy{integer} 11m10
+32r7 MyToken{33|6R9} 34m7 37r14
+80p10 Temp{33|24P12} 82r10 83r10 84r18
+92U20 Free[14|20] 100s10
+93p10 Temp{33|24P12} 95r13 98r18 99r18 100m15 100r15
+

@@ -1,0 +1,35 @@
+primitives.adb:3:14: missing body for "CBranch" declared at primitives.ads:6
+primitives.adb:3:14: missing body for "FPrint" declared at primitives.ads:8
+primitives.adb:16:14: "CBranch" conflicts with declaration at primitives.ads:6
+primitives.adb:18:14: "FPrint" conflicts with declaration at primitives.ads:8
+primitives.adb:20:04: missing "return" statement in function body
+primitives.adb:20:13: not type conformant with declaration at primitives.ads:3
+primitives.adb:20:13: return type does not match
+primitives.adb:20:55: "," should be ";"
+primitives.adb:24:12: no value supplied for component "Name"
+primitives.adb:24:12: no value supplied for component "Definition_Index"
+primitives.adb:25:44: "Name" is not visible
+primitives.adb:25:44: non-visible declaration at a-ststio.ads:85
+primitives.adb:25:44: non-visible declaration at a-textio.ads:104
+primitives.adb:25:44: non-visible declaration at system.ads:46
+primitives.adb:32:30: no candidate interpretations match the actuals:
+primitives.adb:32:30: missing argument for parameter "n" in call to "Make_Token" declared at token.ads:17
+primitives.adb:32:50: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+primitives.adb:32:50: found a string type
+primitives.adb:32:50:   ==> in call to "Make_Token" at token.ads:16
+primitives.adb:34:27: argument of conversion cannot be access
+primitives.adb:34:27: use qualified expression instead
+primitives.adb:36:30: no candidate interpretations match the actuals:
+primitives.adb:36:42: expected type "Standard.Integer"
+primitives.adb:36:42: found a string type
+primitives.adb:36:42:   ==> in call to "Make_Token" at token.ads:17
+primitives.adb:36:42:   ==> in call to "Make_Token" at token.ads:16
+primitives.adb:38:27: argument of conversion cannot be access
+primitives.adb:38:27: use qualified expression instead
+primitives.adb:40:30: no candidate interpretations match the actuals:
+primitives.adb:40:42: expected type "Standard.Integer"
+primitives.adb:40:42: found a string type
+primitives.adb:40:42:   ==> in call to "Make_Token" at token.ads:17
+primitives.adb:40:42:   ==> in call to "Make_Token" at token.ads:16
+primitives.adb:42:27: argument of conversion cannot be access
+primitives.adb:42:27: use qualified expression instead

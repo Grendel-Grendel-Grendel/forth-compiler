@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/nomad/forth-compiler/forth.gpr
+20191003182554
+[BOUND OBJECT FILES]
+/home/nomad/forth-compiler/obj/token.o
+/home/nomad/forth-compiler/obj/parser.o
+/home/nomad/forth-compiler/obj/interpreter.o
+/home/nomad/forth-compiler/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/nomad/forth-compiler/obj/
+-L/home/nomad/forth-compiler/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/adalib/
+-static
+-static-libgcc
+/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/adalib/libgnat.a
+-ldl

@@ -1,0 +1,4 @@
+
+package Parser is
+   procedure Get_Next return String;
+   
